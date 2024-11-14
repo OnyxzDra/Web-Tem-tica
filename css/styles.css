@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+}
+
+header nav{
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul a{
+    color: #8E8E87;
+    margin: 0 12px;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid #8E8E87;
+} 
+
+#hero{
+    width: 84%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#hero h2{
+    font-size: 50px;
+    color: #b4df25;
+    font-weight: 600;
+}
+
+#hero h1{
+    font-size: 30px;
+    color: #8E8E87;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+#hero button{
+    background: #b4df25;
+    color: black;
+    padding: 10px 30px;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+
+
+#tower{
+    width: 100%;
+    position: relative;
+    padding: 120px 0px;
+    text-align: center;
+}
+
+#tower h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#tower p{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+#tower .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#tower article{
+    margin: 20px 50px;
+    position: relative;
+}
+
+#tower article h3{
+    padding: top;
+    color:#b4df25;
+    top: 120px;
+    width: 100%;
+}
+
+
+
+
+#juego{
+    width: 100%;
+    padding: 120px 0 50px;
+    background: url(../img/bg-destinos.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#juego h2{
+    color: #b4df25;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#juego .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#juego article{
+    margin: 30px  180px;
+}
+
+#juego h3{
+    color: #ffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    background: #b4df25;
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#contacto p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacto form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+#contacto form select{
+    width: 43%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#contacto button{
+    background: #000;
+    color: #ffff;
+    font-size: 22px;
+    padding: 12px 50px;
+    border-radius: 6px;
+}
+
+footer{
+    background: #000;
+    color: #ffff;
+    padding: 40px;
+    text-align: center;
+}
+
+#pvz{
+    width: 100%;
+    position: relative;
+    padding: 120px 0px;
+    text-align: center;
+}
+
+#pvz h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #b4df25;
+}
+
+#pvz p{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+#pvz .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#pvz article{
+    margin: 20px 50px;
+    position: relative;
+}
+
+#pvz article h3{
+    position: unset;
+    color:#b4df25;
+    top: 120px;
+    width: 100%;
+}
+
+#pvz{
+    background-color: #000;
+}
+
+#pvz p{
+    color: #ffff;
+}
